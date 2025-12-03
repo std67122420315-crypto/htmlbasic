@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <title>แบบสอบถาม</title>
+</head>
+<body>
+    <h2 style="text-align: center;">แบบสอบถามข้อมูลผู้ตอบ</h2>
+
+    <form>
+        <table align="center" cellspacing="10" style="background-color: #f2f2f2; padding: 20px;">
+            <tr>
+                <td><b>ชื่อ - นามสกุล</b></td>
+                <td><input type="text" name="fullname" /></td>
+            </tr>
+
+            <tr>
+                <td><b>เพศ</b></td>
+                <td>
+                    <input type="radio" name="gender" value="male" checked /> ชาย
+                    <input type="radio" name="gender" value="female" /> หญิง
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>สังกัดคณะ</b></td>
+                <td>
+                    <select name="faculty">
+                        <option value="science">คณะวิทยาศาสตร์</option>
+                        <option value="education">คณะครุศาสตร์</option>
+                        <option value="business">คณะบริหารธุรกิจ</option>
+                        <option value="agriculture">คณะเกษตรศาสตร์</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>แม่สีที่ชื่นชอบ</b></td>
+                <td>
+                    <input type="checkbox" name="color_red" /> แดง
+                    <input type="checkbox" name="color_blue" /> น้ำเงิน
+                    <input type="checkbox" name="color_yellow" /> เหลือง
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>ผลไม้ที่ชื่นชอบ</b></td>
+                <td>
+                    <input type="checkbox" name="fruit_apple" /> แอปเปิล
+                    <input type="checkbox" name="fruit_orange" /> ส้ม
+                    <input type="checkbox" name="fruit_banana" /> กล้วย
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>อาหารที่ชื่นชอบ</b></td>
+                <td>
+                    <input type="checkbox" name="food_noodle" /> ก๋วยเตี๋ยว
+                    <input type="checkbox" name="food_friedrice" /> ข้าวผัด
+                    <input type="checkbox" name="food_somtam" /> ส้มตำ
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><hr /></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <button type="submit">ส่งแบบสอบถาม</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
